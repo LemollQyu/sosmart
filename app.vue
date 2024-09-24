@@ -1,51 +1,35 @@
 <template>
 
-<div class="flex gap-3 flex-col mx-14 mt-5">
+  <!-- Authentikasi -->
 
-<div class="border">
-<h1 class="font-lora text-xl">Hello World</h1>
-  <p class="font-lora">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
-  </p>
-  <p class="underline font-bold font-lora">Font Lora</p>
-</div>
+    <div class="gap-5 flex flex-col mx-auto font-bold font-nunito absolute left-1/2 bottom-10 -translate-x-1/2">
 
-<div class="border">
-<h1 class="font-poppins text-xl">Hello World</h1>
-  <p class="font-poppins">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'
-  </p>
-  
-  <p class="underline font-bold font-poppins">Font Poppins</p>
-</div>
+      <button class="w-[312px] h-[50px] rounded-lg border-2 border-black">
+          Buat akun baru
+      </button>
 
-<div class="border">
-<h1 class="font-oswald text-xl">Hello World</h1>
-  <p class="font-oswald">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'
-  </p>
-  
-  <p class="underline font-bold font-oswald">Font Oswald</p>
-</div>
+      <button class="w-[312px] h-[50px] rounded-lg border-2 border-black">
+        <NuxtLink to="/login">Masuk</NuxtLink>
+      </button>
 
-<div class="border">
-<h1 class="font-ubuntu text-xl">Hello World</h1>
-  <p class="font-ubuntu">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter
-  </p>
-  
-  <p class="underline font-bold font-ubuntu">Font Ubuntu</p>
-</div>
+      <h1 class="font-nunito font-extralight text-center">Atau</h1>
+      <h1 class="font-nunito font-extralight text-center">Masuk</h1>
+ 
+      
 
-<div class="border">
-<h1 class="font-opensans text-xl">Hello World</h1>
-  <p class="font-opensans">
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter
-  </p>
-  
-  <p class="underline font-bold font-opensans">Font opensans</p>
-</div>
 
-</div>
+      <div class="mx-auto gap-[20px] flex">
+        <div class="w-[44px] h-[44px] rounded-full bg-[#dfdfdf] flex justify-center items-center">
+            <img src="./public/wrapper.png"/>
+        </div>
+        <div class="w-[44px] h-[44px] rounded-full bg-[#dfdfdf] flex justify-center items-center">
+          <img src="./public/mobile.png" />
+
+      </div>
+      </div>
+            
+
+
+    </div>
 
 </template>

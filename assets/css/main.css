@@ -3,45 +3,7 @@
 @tailwind utilities;
 
 
-
-@font-face {
-    font-family: "lora";
-    src: url("/public/Lora-VariableFont_wght.ttf");
-  }
-
   @font-face {
-    font-family: "poppins";
-    src: url("/public/font/Poppins-Regular.ttf");
+    font-family: "nunito";
+    src: url("/public/font-nunito/Nunito-VariableFont_wght.ttf");
   }
-
-  @font-face {
-    font-family: "poppinsBold";
-    src: url("/public/font/Poppins-Bold.ttf");
-  }
-
-  @font-face {
-    font-family: "poppinsItalic";
-    src: url("/public/font/Poppins-Italic.ttf");
-  }
-
-  @font-face {
-    font-family: "poppinsLight";
-    src: url("/public/font/Poppins-Light.ttf");
-  }
-
-  @font-face {
-    font-family: "poppinsThin";
-    src: url("/public/font/Poppins-Thin.ttf");
-  }
-  
-  
-  @font-face {
-    font-family: "oswald";
-    src: url("/public/font-oswald/Oswald-VariableFont_wght.ttf");
-  }
-  
-  @font-face {
-    font-family: "montserrat";
-    src: url("/public/font-oswald/Montserrat-VariableFont_wght.ttf");
-  }
-  

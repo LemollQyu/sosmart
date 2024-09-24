@@ -10,13 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      poppins: ["poppins", "sans-serif"],
-      poppinsBold: ["poppinsBold", "sans-serif"],
-      poppinsLight: ["poppinsLight", "sans-serif"],
-      poppinsThin: ["poppinsThin", "sans-serif"],
-      lora: ["lora", "sans-serif"],
-	  oswald: ["oswald", "sans-serif"],
-	  monstserrat: ["montserrat", "sans-serif"],
+      nunito: ["nunito", "sans-serif"],
 	  
     },
   },
